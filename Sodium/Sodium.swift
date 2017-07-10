@@ -22,6 +22,7 @@ public class Sodium {
     public let auth = Auth()
     public let stream = Stream()
         public let keyDerivation = KeyDerivation()
+	public let keyAgreement = KeyAgreement()
 
     public init?() {
         struct Once {
